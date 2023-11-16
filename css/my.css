@@ -1,0 +1,82 @@
+.navigation{
+    float: right;
+    height: 80%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 25px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: dimgray;
+    color: #101010;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #101010;
+
+}
+.inner-header{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo-container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content{
+    width: 100%;
+    height: 1000px;
+    color: #101010;
+    background-color: white;
+}
+.inner-content{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+.inner-content img{
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: #101010;
+    color: white;
+}
+blockquote {
+  quotes: "«" "»"; /* Задаем кавычки для цитат */
+  font-style: italic; /* Устанавливаем курсивное начертание текста */
+  border-left: 2px solid #ccc; /* Добавляем левую границу */
+  padding-left: 10px; /* Отступ слева для текста цитаты */
+}
+
+blockquote:before {
+  content: open-quote; /* Выводим открывающую кавычку перед цитатой */
+}
+
+blockquote:after {
+  content: close-quote; /* Выводим закрывающую кавычку после цитаты */
+}
